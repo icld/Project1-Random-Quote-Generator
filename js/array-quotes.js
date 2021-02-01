@@ -1,17 +1,15 @@
+// Array of objects to be accessed by functions from script.js 
 const quotes = [
-  { quote: 'I am a quote 0', source: 'source 0' },
-  { quote: 'I am a quote 1', source: 'source 1' },
-  { quote: 'I am a quote 2', source: 'source 2' },
-  { quote: 'I am a quote 3', source: 'source 3', citation: 'citation 3' },
-  { quote: 'I am a quote 4', source: 'source 4', citation: 'citation 4' },
-  { quote: 'I am a quote 5', source: 'source 5', citation: 'citation 5' },
-  { quote: 'I am a quote 6', source: 'source 6', citation: 'citation 6' },
-  { quote: 'I am a quote 7', source: 'source 7', citation: 'citation 7', year: 'year 7' },
-  { quote: 'I am a quote 8', source: 'source 8', citation: 'citation 8', year: 'year 8' },
-  { quote: 'I am a quote 9', source: 'source 9', citation: 'citation 9', year: 'year 9' },
-  { quote: 'I am a quote 10', source: 'source 10', year: 'year 10' },
-  { quote: 'I am a quote 11', source: 'source 11', year: 'year 11' },
-  { quote: 'I am a quote 12', source: 'source 12', year: 'year 12' },
+  { quote: 'Help me, Obi-Wan Kenobi. You’re my only hope.', source: 'Leia Organa' },
+  { quote: 'The garbage’ll do!', source: 'Rey' },
+  { quote: 'The Force will be with you. Always.', source: 'Obi-Wan Kenobi', citation: 'Star Wars: Episode IV – A New Hope' },
+  { quote: 'Never tell me the odds!', source: 'Han Solo', citation: 'Star Wars: Episode V – The Empire Strikes Back' },
+  { quote: 'When gone am I, the last of the Jedi will you be. The Force runs strong in your family. Pass on what you have learned.', source: 'Yoda', citation: 'Star Wars: Episode VI – Return of the Jedi' },
+  { quote: 'Oh, my dear friend. How I’ve missed you.', source: 'C-3PO', citation: 'Star Wars: Episode VII – The Force Awakens', year: '2015' },
+  { quote: 'She’s fast enough for you, old man.', source: 'Han Solo', citation: 'Star Wars: Episode IV – A New Hope', year: '1977' },
+  { quote: 'I’ll never turn to the dark side. You’ve failed, your highness. I am a Jedi, like my father before me.', source: 'Luke Skywalker', citation: 'Star Wars: Episode VI – Return of the Jedi', year: '1983' },
+  { quote: 'I’m one with the Force. The Force is with me.', source: 'Chirrut Îmwe', year: '2016' },
+  { quote: 'Do. Or do not. There is no try.', source: 'Yoda', year: '1980' }
 ];
 
 console.log(quotes.length)
