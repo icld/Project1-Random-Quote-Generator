@@ -25,9 +25,11 @@ calls getRandomRGB. */
 function printQuote() {
   let randomQuote = getRandomQuote();
   let html = `<p class ="quote" >${randomQuote.quote}</p> <p class="source">${randomQuote.source}`;
+  if (randomQuote.species) {
+    html += `<span class="species">-${randomQuote.species}</span>`;
+  }
   if (randomQuote.citation) {
     html += `<span class="citation">${randomQuote.citation}</span>`;
-
   } if (randomQuote.year) {
     html += `<span class="year">${randomQuote.year}</span>`;
   }
